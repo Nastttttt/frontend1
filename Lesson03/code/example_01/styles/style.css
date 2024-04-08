@@ -1,0 +1,60 @@
+.violet-style {
+    color: blueviolet;
+    font-size: 30px;
+}
+#four {
+    color: bisque;
+}
+.violet-style .yellowtext {
+    color:yellow;
+}
+.violet-style + .blue-style{
+    background-color: aqua;
+}
+
+ul li:last-child {
+    color:red;
+
+}
+a:hover{
+    color:chartreuse;
+}
+.fonsize25{
+    font-size: 25px;
+
+}
+.violet-style.fonsize25{
+    background-color: black;
+}
+.experiments{
+    font-size:20px ;
+    font-weight:700;
+    font-style:italic ;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:rgb(red 45, green 2, blue76);
+    display: inline;
+    width: 200px;
+    height: 200px;
+}
+
+.enemy {
+    font-size: 25xp;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue ;
+    text-align: center;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: antiquewhite;
+}
+
+

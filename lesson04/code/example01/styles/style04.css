@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px; 
+    background-color: gray;
+    margin-top: 50px;
+    margin-right:50px;
+    margin-bottom: 50px;
+    margin: 50px 50px 50px 50px;/* top right bottom left */
+    margin: 50px 50px;/* 1= top = bottom, 2 = left = right */
+    margin: 50px 50px 50px;/* 1 = top, 2 = lest = right, 3 = bottom */
+    border: 10 px solid blueviolet;
+    padding: 20px;
+}
+
+
+.circle {
+    border-radius: 50%;
+}
+
+.doublle {
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.doublle div:first-child {
+    background-color: aqua;
+    height:200px;
+    width:200px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+.doublle div:last-child {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+}
+.fortext {
+    height: 100px;
+    background-color: bisque;
+    text-align: center;
+}
+
+span {
+    
+    font-size: 30px;
+    
+    line-height: 100px;
+    
+
+}
