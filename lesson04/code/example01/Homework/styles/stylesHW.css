@@ -4,7 +4,7 @@
 }
 
 header {
-    width: 50%;
+    
     height: 150px;
     background-color: brown;
     text-align: center;
@@ -15,16 +15,15 @@ header {
 }
 
 main {
-    width: 50%;
-    height: 620px;
     background-color: palevioletred;
     text-align: center;
     font-size: 24px;
     margin-bottom: 25px;
+    min-height: calc(100vh - 350px);
+    
 }
 
 footer {
-    width: 50%;
     height: 150px;
     background-color: brown;
     text-align: center;
